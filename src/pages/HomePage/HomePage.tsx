@@ -1,7 +1,11 @@
-import React from "react";
+import Header from "../../components/Header";
 
 const HomePage = () => {
-  return <div className="text-7xl">Hello world</div>;
+  return (
+    <div className="w-full min-h-screen h-full bg-[#05071E]">
+      <Header />
+    </div>
+  );
 };
 
 export default HomePage;
