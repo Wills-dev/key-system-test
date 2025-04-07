@@ -9,17 +9,35 @@ const WhyChooseUs = () => {
     <section className="py-28 bg-trust-us-bg">
       <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3 flex justify-center ">
         <div className="max-w-5xl space-y-4">
-          <h3 className="md:text-5xl sm:text-3xl text-xl font-bold text-center">
+          <motion.h3
+            variants={subheadingVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            className="md:text-5xl sm:text-3xl text-xl font-bold text-center"
+          >
             Why we are your Trusted Consultant
-          </h3>
-          <p className="md:text-xl sm:text-lg text-center text-[#BBBBBB]">
+          </motion.h3>
+          <motion.p
+            variants={subheadingVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            className="md:text-xl sm:text-lg text-center text-[#BBBBBB]"
+          >
             Empowering Businesses with Cutting-edge Technology
-          </p>
-          <p className="text-center md:text-3xl sm:text-xl text-lg text-[#D2D2D2] leading-relaxed pt-8">
+          </motion.p>
+          <motion.p
+            variants={subheadingVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            className="text-center md:text-3xl sm:text-xl text-lg text-[#D2D2D2] leading-relaxed pt-8"
+          >
             Excellence isn’t a goal, it’s our DNA; our relentless pursuit of
             excellence is the driving force behind our success. Excellence is
             our legacy, and we are proud to carry it forward.{" "}
-          </p>
+          </motion.p>
         </div>
       </div>
       <div className="bg-radial from-deep-blue  to-dark-navy">
