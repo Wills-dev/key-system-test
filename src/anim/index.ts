@@ -27,3 +27,13 @@ export const subheadingVariants = {
     transition: { duration: 0.8, delay: 0.8, ease: "easeOut" },
   },
 };
+
+// Animation variants for the hero image
+export const imageVariants = {
+  hidden: { opacity: 0, scale: 0.95 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.8, ease: "easeOut", delay: 0.2 },
+  },
+};

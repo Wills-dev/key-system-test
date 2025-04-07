@@ -22,6 +22,7 @@
       transparent 120px
     );
   --background-image-hero-bg: url("/src/assets/images/hero-image.png");
+  --background-image-trust-us-bg: url("/src/assets/images/Line.png");
 }
 
 body {
