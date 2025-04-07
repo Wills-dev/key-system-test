@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div className="w-full relative">
-      <header className="w-full bg-gradient-to-r from-dark-navy via-dark-navy  to-deep-blue py-4 font-family-Poppins">
+      <header className="w-full bg-gradient-to-r from-dark-navy via-dark-navy  to-deep-blue py-4 font-family-Poppins shadow-lg">
         <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3">
           <div className="flex items-center justify-between gap-10">
             <img
@@ -83,7 +83,7 @@ const Header = () => {
               </ul>
             </nav>
             <CustomButton
-              extraStyle="bg-gradient-to-r from-navy-blue via-light-blue to-navy-blue border-[1px] border-light-blue max-lg:hidden py-2"
+              extraStyle="bg-gradient-to-r from-navy-blue via-light-blue to-navy-blue border-[1px] border-light-blue max-lg:hidden py-2 px-6 "
               title="+234 818 444 1404"
               handleClick={() => {}}
               icon={
