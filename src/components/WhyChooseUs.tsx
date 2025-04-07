@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 
+import TrustUsImg from "/src/assets/images/TrustUs.png";
+
 import { imageVariants, subheadingVariants } from "../anim";
-import TrustUsImg from "/src/assets/images/TrustUs.svg";
 
 const WhyChooseUs = () => {
   return (
