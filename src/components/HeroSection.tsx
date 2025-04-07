@@ -1,15 +1,21 @@
 import { motion } from "framer-motion";
 
 import CustomButton from "./CustomButton";
+import heroImage from "/src/assets/images/hero-img.svg";
 
-import { subheadingVariants, welcomeVariants, wordVariants } from "../anim";
+import {
+  imageVariants,
+  subheadingVariants,
+  welcomeVariants,
+  wordVariants,
+} from "../anim";
 
 const headingText = "IT Consulting for Forward-thinking Businesses".split(" ");
 
 const HeroSection = () => {
   return (
     <section className="w-full">
-      <div className="sm:pt-20 pt-14 w-full bg-gradient-to-r from-dark-navy via-dark-navy  to-deep-blue py-4 font-family-Poppins">
+      <div className="sm:pt-20 pt-14 w-full bg-gradient-to-r from-dark-navy via-dark-navy  to-deep-blue font-family-Poppins">
         <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3">
           <div className="flex justify-center w-full">
             <div className="max-w-4xl w-full flex flex-col items-center space-y-4">
@@ -71,11 +77,16 @@ const HeroSection = () => {
         <div className="w-full bg-gradient-to-tr from-dark-navy via-dark-navy  to-deep-blue pb-16">
           <div className="w-full min-w-full bg-hero-bg flex justify-center">
             <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3">
-              <div className="max-w-4xl w-full z-10">
-                <img
-                  src="/src/assets/images/hero-img.svg"
-                  alt=""
+              <div className="max-w-5xl w-full z-10">
+                <motion.img
+                  src={heroImage}
+                  alt="Hero illustration"
                   className="w-full h-auto"
+                  loading="lazy"
+                  variants={imageVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
                 />
               </div>
             </div>

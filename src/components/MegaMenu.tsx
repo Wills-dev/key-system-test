@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const MegaMenu: React.FC = () => {
   return (
     <motion.div
-      className="absolute top-full left-0 w-full bg-gradient-to-r from-deep-blue to-dark-navy shadow-lg border-t  z-40"
+      className="absolute top-full left-0 w-full bg-gradient-to-r from-deep-blue to-dark-navy shadow-lg border-t border-light-blue z-40 h-96"
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}

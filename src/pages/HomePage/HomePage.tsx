@@ -1,5 +1,7 @@
 import Header from "../../components/Header";
 import HeroSection from "../../components/HeroSection";
+import PartnersSlider from "../../components/PartnersSlider";
+import WhyChooseUs from "../../components/WhyChooseUs";
 
 const HomePage = () => {
   return (
@@ -7,6 +9,8 @@ const HomePage = () => {
       <Header />
       <main>
         <HeroSection />
+        <PartnersSlider />
+        <WhyChooseUs />
       </main>
     </div>
   );
