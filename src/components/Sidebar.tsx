@@ -59,7 +59,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             </a>
           </nav>
           <CustomButton
-            extraStyle="bg-gradient-to-r from-navy-blue via-light-blue to-navy-blue border-[1px] border-light-blue py-2"
+            extraStyle="bg-gradient-to-r from-navy-blue via-light-blue to-navy-blue border-[1px] border-light-blue py-2 px-6"
             title="+234 818 444 1404"
             handleClick={() => {}}
             icon={

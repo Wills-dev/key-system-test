@@ -7,10 +7,26 @@
   --color-deep-blue: #111a89;
   --color-light-blue: #4169e1;
   --font-family-Poppins: "Poppins", sans-serif;
+  --background-image-grid-pattern: repeating-linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1) 0px,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 120px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1) 0px,
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 120px
+    );
+  --background-image-hero-bg: url("/src/assets/images/hero-image.png");
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .nav-bar-clip-path {
