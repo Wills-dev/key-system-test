@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 import CustomButton from "./CustomButton";
+import Arrow from "/src/assets/icons/arrow-pointer.svg";
 
 import { services } from "../constants";
 import { cardVariants, cursorVariants, subheadingVariants } from "../anim";
@@ -74,7 +75,7 @@ const OurOfferings = () => {
                         whileHover="hover"
                       >
                         <img
-                          src="/src/assets/icons/arrow-pointer.svg"
+                          src={Arrow}
                           alt="arrow"
                           className="object-contain w-4 h-4"
                         />

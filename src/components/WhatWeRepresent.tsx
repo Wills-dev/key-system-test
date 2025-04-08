@@ -3,6 +3,10 @@ import { motion } from "framer-motion";
 import { subheadingVariants } from "../anim";
 import { SectionTitle } from "./SectionTitle";
 
+import ShadowCard from "./ShadowCard";
+import RepImg from "/src/assets/images/rep.svg";
+import RepImg2 from "/src/assets/images/rep2.svg";
+
 const WhatWeRepresent = () => {
   return (
     <section className="sm:py-28 py-8 bg-trust-us-bg">
@@ -33,13 +37,11 @@ const WhatWeRepresent = () => {
           </motion.p>
         </div>
         <div className="flex gap-10 flex-wrap pt-12">
-          <div className="flex-1 w-full min-w-[300px] bg-gradient-to-tr from-dark-navy via-dark-navy  to-deep-blue border-t-[1px] border-r-0 border-l-0 border-b-[1px] border-[#01B4DE] p-6 rounded-2xl space-y-4">
+          <div className="flex-1 w-full min-w-[300px] bg-gradient-to-tr from-dark-navy via-dark-navy  to-deep-blue border-t-[1px] border-r-[1px] border-l-[1px] border-b-[1px] border-[#01B4DE] p-6 rounded-2xl space-y-4 relative">
+            <ShadowCard extraStyle="-left-[1.8px] bg-[linear-gradient(to_bottom,transparent_0%,#05071E20_1%,#05071E40_10%,#05071E60_15%,#05071E80_20%,#05071E_30%,#05071E_40%,#05071E_60%,#05071E80_70%,#05071E40_80%,#05071E20_90%,transparent_100%)]" />
+            <ShadowCard extraStyle="-right-[1.8px] bg-[linear-gradient(to_bottom,transparent_0%,#111A8920_1%,#111A8940_10%,#111A8960_15%,#111A8980_20%,#111A89_30%,#111A89_40%,#111A89_60%,#05071e80_70%,#05071e40_80%,#05071e10_90%,transparent_100%)]" />
             <div className="flex justify-center">
-              <img
-                src="/src/assets/images/rep.svg"
-                alt="arrow"
-                className="object-contain"
-              />
+              <img src={RepImg} alt="arrow" className="object-contain" />
             </div>
             <h4 className="md:text-5xl text-3xl font-bold">Our Vision</h4>
             <p className="md:text-lg">
@@ -48,13 +50,11 @@ const WhatWeRepresent = () => {
               and achieve transformative growth
             </p>
           </div>
-          <div className="flex-1 w-full min-w-[300px] bg-gradient-to-tr from-dark-navy via-dark-navy  to-deep-blue border-t-[1px] border-r-0 border-l-0 border-b-[1px] border-[#01B4DE] p-6 rounded-2xl space-y-4">
+          <div className="flex-1 w-full min-w-[300px] bg-gradient-to-tr from-dark-navy via-dark-navy  to-deep-blue border-t-[1px] border-r-[1px] border-l-[1px] border-b-[1px] border-[#01B4DE] p-6 rounded-2xl space-y-4 relative">
+            <ShadowCard extraStyle="-left-[1.8px] bg-[linear-gradient(to_bottom,transparent_0%,#05071E20_1%,#05071E40_10%,#05071E60_15%,#05071E80_20%,#05071E_30%,#05071E_40%,#05071E_60%,#05071E80_70%,#05071E40_80%,#05071E20_90%,transparent_100%)]" />
+            <ShadowCard extraStyle="-right-[1.8px] bg-[linear-gradient(to_bottom,transparent_0%,#111A8920_1%,#111A8940_10%,#111A8960_15%,#111A8980_20%,#111A89_30%,#111A89_40%,#111A89_60%,#05071e80_70%,#05071e40_80%,#05071e10_90%,transparent_100%)]" />
             <div className="flex justify-center">
-              <img
-                src="/src/assets/images/rep2.svg"
-                alt="arrow"
-                className="object-contain"
-              />
+              <img src={RepImg2} alt="arrow" className="object-contain" />
             </div>
             <h4 className="md:text-5xl text-3xl font-bold">Our Mission</h4>
             <p className="md:text-lg">
