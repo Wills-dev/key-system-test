@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import HeroSection from "../../components/HeroSection";
 import OurOfferings from "../../components/OurOfferings";
 import PartnersSlider from "../../components/PartnersSlider";
+import WhatWeRepresent from "../../components/WhatWeRepresent";
 import WhyChooseUs from "../../components/WhyChooseUs";
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
         <PartnersSlider />
         <WhyChooseUs />
         <OurOfferings />
+        <WhatWeRepresent />
       </main>
     </div>
   );
