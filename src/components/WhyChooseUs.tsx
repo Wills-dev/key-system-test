@@ -3,21 +3,14 @@ import { motion } from "framer-motion";
 import TrustUsImg from "/src/assets/images/TrustUs.png";
 
 import { imageVariants, subheadingVariants } from "../anim";
+import { SectionTitle } from "./SectionTitle";
 
 const WhyChooseUs = () => {
   return (
     <section className="py-28 bg-trust-us-bg">
       <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3 flex justify-center ">
         <div className="max-w-5xl space-y-4">
-          <motion.h3
-            variants={subheadingVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
-            className="md:text-5xl sm:text-3xl text-xl font-bold text-center"
-          >
-            Why we are your Trusted Consultant
-          </motion.h3>
+          <SectionTitle title="Why we are your Trusted Consultant" />
           <motion.p
             variants={subheadingVariants}
             initial="hidden"

@@ -30,3 +30,54 @@ export const partners = [
   Partner9,
   Partner10,
 ];
+
+export const services = [
+  {
+    service: [
+      {
+        serve: "Core banking services",
+        extraColor: "from-[#0A3440E3] to-[#05071EA6]",
+      },
+      {
+        serve: "Staff augmentation solutions",
+        extraColor: "from-[#0D400AE3] to-[#05071EA6]",
+      },
+      {
+        serve: "Business Intelligence",
+        extraColor: "from-[#400A0AE3] to-[#05071EA6]",
+      },
+    ],
+  },
+  {
+    service: [
+      {
+        serve: "Digital Banking & financial inclusion",
+        extraColor: "from-[#0A0E40E3] to-[#05071EA6]",
+      },
+      {
+        serve: "Internal audit solutions",
+        extraColor: "from-[#40330AE3] to-[#05071EA6]",
+      },
+      {
+        serve: "KeySystem software testing",
+        extraColor: "from-[#3CA3BAE3] to-[#05071EA6]",
+      },
+    ],
+  },
+  {
+    service: [
+      {
+        serve: "Online/mobile lending solution",
+        extraColor: "from-[#400A3AE3] to-[#05071EA1]",
+      },
+      {
+        serve: "Data warehouse",
+        extraColor: "from-[#4A8C2BE3] to-[#05071EA6]",
+      },
+      {
+        serve: "Cybersecurity Solutions",
+        extraColor: "from-[#6012CEB8] to-[#05071EA6]",
+      },
+    ],
+  },
+];

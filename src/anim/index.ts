@@ -37,3 +37,17 @@ export const imageVariants = {
     transition: { duration: 0.8, ease: "easeOut", delay: 0.2 },
   },
 };
+
+export const cardVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, delay: i * 0.1, ease: "easeOut" },
+  }),
+};
+
+export const cursorVariants = {
+  initial: { scale: 1, rotate: 0 },
+  hover: { scale: 1.2, rotate: 15, transition: { duration: 0.3 } },
+};

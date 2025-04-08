@@ -1,76 +1,13 @@
 import { motion } from "framer-motion";
 
-import { subheadingVariants } from "../anim";
 import CustomButton from "./CustomButton";
 
-const OurOfferings = () => {
-  const services = [
-    {
-      service: [
-        {
-          serve: "Core banking services",
-          extraColor: "from-[#0A3440E3] to-[#05071EA6]",
-        },
-        {
-          serve: "Staff augmentation solutions",
-          extraColor: "from-[#0D400AE3] to-[#05071EA6]",
-        },
-        {
-          serve: "Business Intelligence",
-          extraColor: "from-[#400A0AE3] to-[#05071EA6]",
-        },
-      ],
-    },
-    {
-      service: [
-        {
-          serve: "Digital Banking & financial inclusion",
-          extraColor: "from-[#0A0E40E3] to-[#05071EA6]",
-        },
-        {
-          serve: "Internal audit solutions",
-          extraColor: "from-[#40330AE3] to-[#05071EA6]",
-        },
-        {
-          serve: "KeySystem software testing",
-          extraColor: "from-[#3CA3BAE3] to-[#05071EA6]",
-        },
-      ],
-    },
-    {
-      service: [
-        {
-          serve: "Online/mobile lending solution",
-          extraColor: "from-[#400A3AE3] to-[#05071EA1]",
-        },
-        {
-          serve: "Data warehouse",
-          extraColor: "from-[#4A8C2BE3] to-[#05071EA6]",
-        },
-        {
-          serve: "Cybersecurity Solutions",
-          extraColor: "from-[#6012CEB8] to-[#05071EA6]",
-        },
-      ],
-    },
-  ];
+import { services } from "../constants";
+import { cardVariants, cursorVariants, subheadingVariants } from "../anim";
 
+const OurOfferings = () => {
   const offerStyle =
     "relative max-w-[230px] w-full min-w-[230px] px-6 py-4 text-center text-white border-[#DCAEC2] border-t-[1px] border-r-[1px] border-l-[1px] border-b-0 rounded-full overflow-hidden group flex flex-col justify-center items-center gap-1 h-[135px] bg-gradient-to-b";
-
-  const cardVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, delay: i * 0.1, ease: "easeOut" },
-    }),
-  };
-
-  const cursorVariants = {
-    initial: { scale: 1, rotate: 0 },
-    hover: { scale: 1.2, rotate: 15, transition: { duration: 0.3 } },
-  };
 
   return (
     <section className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3 pb-28">
