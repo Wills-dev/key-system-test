@@ -109,7 +109,7 @@ const OurOfferings = () => {
 
       <div className="py-16">
         <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3">
-          <div className="flex gap-10 max-md:gap-20 w-full flex-wrap justify-between max-lg:flex-col">
+          <div className="flex gap-10 w-full flex-wrap lg:justify-between justify-center">
             {services?.map((service, i) => (
               <div
                 key={i}
