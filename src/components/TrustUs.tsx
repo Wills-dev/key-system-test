@@ -24,6 +24,7 @@ const TrustUs = () => {
         <div className="flex justify-center gap-10 flex-wrap mt-12  py-8  px-4 w-full rounded-lg">
           {partners?.map((logo, i) => (
             <img
+              key={i}
               src={logo}
               alt={`Partner Logo ${i}`}
               className="sm:h-24 h-16 object-contain"

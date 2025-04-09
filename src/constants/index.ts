@@ -29,6 +29,12 @@ import compliance15 from "../assets/images/compliance/comp15.png";
 import compliance16 from "../assets/images/compliance/comp16.png";
 import compliance17 from "../assets/images/compliance/comp17.png";
 
+import ourPartner from "../assets/images/partner/partner.png";
+import ourPartner1 from "../assets/images/partner/partner1.png";
+import ourPartner2 from "../assets/images/partner/partner2.png";
+import ourPartner3 from "../assets/images/partner/partner3.png";
+import ourPartner4 from "../assets/images/partner/partner4.png";
+
 export const navLinks = [
   { title: "Home", href: "#" },
   { title: "About", href: "#about" },
@@ -69,6 +75,14 @@ export const partners = [
   Partner8,
   Partner9,
   Partner10,
+];
+
+export const ourPartners = [
+  ourPartner,
+  ourPartner1,
+  ourPartner2,
+  ourPartner3,
+  ourPartner4,
 ];
 
 export const services = [
