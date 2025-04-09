@@ -1,4 +1,5 @@
 import Compliance from "../../components/Compliance";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import HeroSection from "../../components/HeroSection";
 import OurOfferings from "../../components/OurOfferings";
@@ -26,6 +27,7 @@ const HomePage = () => {
         <OurPartners />
         <Ready />
       </main>
+      <Footer />
     </div>
   );
 };

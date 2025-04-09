@@ -35,12 +35,19 @@ import ourPartner2 from "../assets/images/partner/partner2.png";
 import ourPartner3 from "../assets/images/partner/partner3.png";
 import ourPartner4 from "../assets/images/partner/partner4.png";
 
+import X from "../assets/images/socials/x.png";
+import LinkedIn from "../assets/images/socials/linkedin.png";
+import Facebook from "../assets/images/socials/facebook.png";
+import Instagram from "../assets/images/socials/instagram.png";
+
 export const navLinks = [
   { title: "Home", href: "#" },
   { title: "About", href: "#about" },
   { title: "Services", href: "#services", hasDropdown: true },
   { title: "Contact", href: "#contact" },
 ];
+
+export const socials = [Instagram, X, LinkedIn, Facebook];
 
 export const compliances = [
   compliance7,
@@ -135,3 +142,23 @@ export const services = [
     ],
   },
 ];
+
+export const services1 = [
+  "Core refresh",
+  "Application management services",
+  "Evolution & enhancement services",
+  "Solution Assurance & validation",
+  "Digital Banking & financial inclusion",
+  "Online/mobile lending solution",
+];
+
+export const services2 = [
+  "Staff augmentation solutions",
+  "Risk management & Internal audit solutions",
+  "Data Warehouse & Business Intelligence (BI)",
+  "Enterprise Document Management Solutions",
+  "KeySystem software testing",
+  "Cybersecurity Solutions",
+];
+
+export const quickLinks = ["About us", "Site map"];
