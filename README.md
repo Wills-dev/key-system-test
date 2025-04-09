@@ -79,8 +79,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Wills-dev/innoscripta.git
-   cd innoscripta
+   git clone https://github.com/Wills-dev/key-system-test.git
+   cd key-system-test
    ```
 2. Install dependencies:
    ```sh
