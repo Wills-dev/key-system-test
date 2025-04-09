@@ -10,11 +10,51 @@ import Partner8 from "../assets/images/partner8.svg";
 import Partner9 from "../assets/images/partner9.svg";
 import Partner10 from "../assets/images/partner10.svg";
 
+import compliance from "../assets/images/compliance/comp.png";
+import compliance1 from "../assets/images/compliance/comp1.png";
+import compliance2 from "../assets/images/compliance/comp2.png";
+import compliance3 from "../assets/images/compliance/comp3.png";
+import compliance4 from "../assets/images/compliance/comp4.png";
+import compliance5 from "../assets/images/compliance/comp5.png";
+import compliance6 from "../assets/images/compliance/comp6.png";
+import compliance7 from "../assets/images/compliance/comp7.png";
+import compliance8 from "../assets/images/compliance/comp8.png";
+import compliance9 from "../assets/images/compliance/comp9.png";
+import compliance10 from "../assets/images/compliance/comp10.png";
+import compliance11 from "../assets/images/compliance/comp11.png";
+import compliance12 from "../assets/images/compliance/comp12.png";
+import compliance13 from "../assets/images/compliance/comp13.png";
+import compliance14 from "../assets/images/compliance/comp14.png";
+import compliance15 from "../assets/images/compliance/comp15.png";
+import compliance16 from "../assets/images/compliance/comp16.png";
+import compliance17 from "../assets/images/compliance/comp17.png";
+
 export const navLinks = [
   { title: "Home", href: "#" },
   { title: "About", href: "#about" },
   { title: "Services", href: "#services", hasDropdown: true },
   { title: "Contact", href: "#contact" },
+];
+
+export const compliances = [
+  compliance7,
+  compliance8,
+  compliance2,
+  compliance9,
+  compliance1,
+  compliance10,
+  compliance,
+  compliance13,
+  compliance4,
+  compliance11,
+  compliance3,
+  compliance12,
+  compliance15,
+  compliance14,
+  compliance5,
+  compliance6,
+  compliance17,
+  compliance16,
 ];
 
 export const partners = [

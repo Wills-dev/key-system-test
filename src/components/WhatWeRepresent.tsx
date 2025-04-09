@@ -9,7 +9,7 @@ import RepImg2 from "/src/assets/images/rep2.svg";
 
 const WhatWeRepresent = () => {
   return (
-    <section className="sm:py-28 py-8 bg-trust-us-bg">
+    <section className="sm:py-20 py-8">
       <div className="2xl:container 2xl:mx-auto xl:px-[6rem] lg:px-[4rem] sm:px-[2rem] px-3 flex flex-col items-center justify-center ">
         <div className="max-w-4xl space-y-4 flex flex-col items-center justify-center">
           <SectionTitle title=" What we Represent" />

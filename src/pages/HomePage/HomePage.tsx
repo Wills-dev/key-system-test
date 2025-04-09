@@ -1,3 +1,4 @@
+import Compliance from "../../components/Compliance";
 import Header from "../../components/Header";
 import HeroSection from "../../components/HeroSection";
 import OurOfferings from "../../components/OurOfferings";
@@ -15,6 +16,7 @@ const HomePage = () => {
         <WhyChooseUs />
         <OurOfferings />
         <WhatWeRepresent />
+        <Compliance />
       </main>
     </div>
   );
