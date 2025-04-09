@@ -2,6 +2,7 @@ import Compliance from "../../components/Compliance";
 import Header from "../../components/Header";
 import HeroSection from "../../components/HeroSection";
 import OurOfferings from "../../components/OurOfferings";
+import OurProcess from "../../components/OurProcess";
 import PartnersSlider from "../../components/PartnersSlider";
 import TrustUs from "../../components/TrustUs";
 import WhatWeRepresent from "../../components/WhatWeRepresent";
@@ -19,6 +20,7 @@ const HomePage = () => {
         <WhatWeRepresent />
         <Compliance />
         <TrustUs />
+        <OurProcess />
       </main>
     </div>
   );
