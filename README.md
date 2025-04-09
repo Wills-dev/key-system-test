@@ -1,54 +1,98 @@
-# React + TypeScript + Vite
+# Key System Technology Limited
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [https://keysystemtechnology.netlify.app](https://keysystemtechnology.netlify.app)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📑 Table of Contents
 
-## Expanding the ESLint configuration
+- [📌 Overview](#-overview)
+- [🚀 Tech Stack](#-tech-stack)
+- [✨ Features](#-features)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Setup & Installation](#-setup--installation)
+- [📡 Deployment](#-deployment)
+- [📷 Preview](#-preview)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📌 Overview
+
+**Key System Technology Limited** is a sleek, modern landing page built to reflect innovation, trust, and forward-thinking in the digital space.
+
+This landing page presents the company's core services, values, and contact approach with smooth transitions, responsive layout, and engaging user experience — helping visitors connect with the brand instantly.
+
+---
+
+## 🚀 Tech Stack
+
+### 🟡 Vite + React
+
+- **Why Vite?** It offers significantly faster development and build times compared to Create React App (CRA).
+- CRA is no longer actively maintained, while Vite is the modern standard — lightweight, highly configurable, and lightning fast.
+
+### 🎞️ Framer Motion
+
+- Used for animations and transitions across the page.
+- **Why Framer Motion?** It provides a clean and intuitive package to create smooth, interactive animations that enhance user experience without slowing down performance.
+
+### 🎨 Tailwind CSS
+
+- A utility-first CSS framework used for styling the entire application.
+- **Why Tailwind?**
+  - Eliminates the need for writing custom CSS from scratch.
+  - Makes components easier to maintain.
+  - Encourages a consistent design system across the app.
+  - It’s responsive, customizable, and saves time.
+
+---
+
+## ✨ Features
+
+- Clean and professional design
+- Smooth page transitions and animations
+- Responsive layout for all screen sizes
+- Clear presentation of services
+- Accessible and fast-loading
+
+> _This is a landing page built to deliver exactly what users expect — information, trust, and connection._
+
+---
+
+## Project Structure
+
+```
+src/
+|-- anim/           # animation varaints for framer motion
+|-- assets/         # Images and icons
+|-- components/     # Reusable components
+|-- constants/      # Reusable data constants
+|-- helpers/        # Utility functions
+|-- pages/          # Page components
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Setup & Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+To run this project locally, follow these steps:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Steps
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Wills-dev/innoscripta.git
+   cd innoscripta
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+The app should now be running at http://localhost:5173
+
+## Contact
+
+For any inquiries or feedback, please reach out to Chidiebere Victor at [ejioguvictor@gmail.com].
